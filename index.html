@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="dist/js/jquery.js"></script>
+  <script>
+    addEventListener("DOMContentLoaded", (event) => {
+      $(".loader").fadeOut(1500);
+    });
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title class="lang" key="Qsalary_title">Your Cash Solution - Qsalary</title>
+
+  <link rel="shortcut icon" href="dist/img/favicon1.png" type="image/x-icon" />
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="dist/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="dist/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="dist/css/style.css" />
+
+  <style>
+    .loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url("dist/img/loader.gif") 50% 50% no-repeat rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div class="main_container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container align-items-lg-center align-items-md-start">
+          <a class="navbar-brand" href="#"><img src="dist/img/logo.png" alt="" />
+          </a>
+          <span class="color_purple Your_Cash_Solution fw_600 lang d-lg-block d-none" key="Your_Cash_Solution">| Your
+            Cash Solution&nbsp;</span>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item fw_600">
+                <a class="nav-link lang active" key="Home" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item fw_600">
+                <a href="" class="nav-link lang" key="About_Us" aria-current="page">About Us</a>
+              </li>
+
+              <li class="nav-item fw_600">
+                <a href="" class="nav-link lang" key="Employer_Benefits" aria-current="page">Employer Benefits</a>
+              </li>
+              <li class="nav-item fw_600">
+                <a href="" class="nav-link lang" key="Employee_Benefits" aria-current="page">Employee Benefits</a>
+              </li>
+
+              <li class="nav-item fw_600">
+                <a href="" class="nav-link lang" key="Contact" aria-current="page">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="two d-flex flex-row-reverse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex justify-content-center align-items-center gap-1">
+              <button class="btn lang translate translate_btn p-1" id="ar">
+                <img src="dist/img/soudia.png" alt="icon_soudia" width="20px" />&hairsp;&hairsp;
+                العربية
+              </button>
+              <button class="btn btn_purple_outline lang d-lg-block d-none" key="Join_Today" type="submit">
+                Join Today
+
+
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Financial Wellness -->
+      <section class="container" id="splash__wrapper">
+        <div class="px-2 splash__container">
+          <div class="splash_bg3">
+            <div class="d-flex justify-content-center align-content-center align-items-center flex-wrap">
+              <div
+                class="d-flex gap-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 flex-column justify-content-start p-5 splash__content">
+                <div class="d-flex justify-content-start">
+                  <span class="divider"> </span>
+                </div>
+                <div class="d-flex justify-content-start splash__title mt-2">
+                  <h1 class="lang fw_600" key="Financial">
+                    Financial Wellness <br />
+                    Gate for Your <br />
+                    Employees
+                  </h1>
+                </div>
+                <div class="d-flex justify-content-start splash__parag">
+                  <p class="lang fw_400 text_mopile" key="Empower">
+                    Empower your employees to access their earned wages
+                    anytime, and make every day a payday.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row flex-xl-row flex-lg-row flex-md-row justify-content-start splash__btns gap-2">
+                  <button class="btn btn_purple lang fw_800 text-uppercase btn-lg" key="Request_a_Demo">
+                    Request a Demo
+                  </button>
+                  <button class="btn btn_purple_outline btn-lg">
+                    <i class="bi bi-download"></i>
+                    <span class="lang fw_800 text-uppercase" key="Download">Download the APP</span>
+                  </button>
+                </div>
+              </div>
+              <div id="splash_bg2"
+                class=" splash_bg2 d-flex col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 justify-content-center">
+                <img src="./dist/img/man.png" class="img-fluid" alt="header_man" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Employer Benefits -->
+      <section>
+        <div class="container d-flex align-items-center justify-content-center flex-column">
+          <h2 class="lang" key="Employer_Benefits">Employer Benefits</h2>
+          <br />
+          <div class="row content d-flex">
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Zero_Cost.png" class="card-img-top w-25" alt="Zero_Cost" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Zero_Cost">
+                  Zero Cost
+                </h3>
+                <p class="card-text text-center lang" key="Zero_Cost_p">
+                  No hidden, surprise or additional fees.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Zero_Interest.png" class="card-img-top w-25" alt="Zero_Interest" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Zero_Interest">
+                  Zero Interest
+                </h3>
+
+                <p class="card-text text-center lang" key="Zero_Interest_p">
+                  Full compliance with Shariah.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Time_saving.png" class="card-img-top w-25" alt="Time_saving" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Time_saving">
+                  Time-saving
+                </h3>
+                <p class="card-text text-center lang" key="Time_savin_p">
+                  Release pressure on human resources in your company.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Easy_Liquidity.png" class="card-img-top w-25" alt="Easy_Liquidity" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Easy_Liquidity">
+                  Easy Liquidity
+                </h3>
+
+                <p class="card-text text-center lang" key="Easy_Liquidity_p">
+                  Your employees will no longer need to apply for loans.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row d-flex">
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Money_Collection.png" class="card-img-top w-25" alt="Money_Collection" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Money_Collection">
+                  Money Collection
+                </h3>
+
+                <p class="card-text text-center lang" key="Money_Collection_p">
+                  Withdrawn Payments will be automatically deducted when
+                  transferring salaries.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Quick_Access.png" class="card-img-top w-25" alt="Quick_Access" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Quick_Access">
+                  Quick Access
+                </h3>
+
+                <p class="card-text text-center lang" key="Quick_Access_p">
+                  Meet the financial needs of your employees whenever they
+                  want.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Increased_Productivity.png" class="card-img-top w-25" alt="Increased_Productivity" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Increased_Productivity">
+                  Increased Productivity
+                </h3>
+                <p class="card-text text-center lang" key="Increased_Productivity_p">
+                  Free your employees from financial worries, enabling
+                  complete focus on their work.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-3 col-6 align-items-center justify-content-center">
+              <img src="dist/img/Turnover_Reduction.png" class="card-img-top w-25" alt="Turnover_Reduction" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_600" key="Turnover_Reduction">
+                  Turnover Reduction
+                </h3>
+
+                <p class="card-text text-center lang" key="Turnover_Reduction_p">
+                  Enhance employee job satisfaction and loyalty.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <button class="btn btn_purple lang fw_600 btn-lg col-8 col-md-3 col-lg-3" type="submit" key="See_more">
+            See more
+          </button>
+        </div>
+      </section>
+      <!-- How Does Qsalary Work? -->
+      <section id="Qsalary_Work" style="background-color: var(--section_streatched)">
+        <div class="container d-flex align-items-center justify-content-center flex-column">
+          <br /><br /><br />
+          <h5 class="lang" key="How_Does_Qsalary_Work">
+            How Does Qsalary Work?
+          </h5>
+          <br />
+          <h2 class="text-center">
+            <p class="lang m-0" key="How_Does_Qsalary_Work_p_1">
+              Financial Freedom for Your Employees
+            </p>
+            <p class="lang" key="How_Does_Qsalary_Work_p_2">
+              in 3 Simple Steps
+            </p>
+          </h2>
+          <br />
+          <br />
+          <div class="row cards">
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/register.png" class="card-img-top w-50" alt="register" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_500 h_20" key="Register">
+                  Register Your Company
+                </h3>
+
+                <p class="card-text text-center lang p_14" key="Register_p">
+                  Registration is easy, complications and hassle free, just
+                  contact us.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/add_your.png" class="card-img-top w-50" alt="Add_Employees" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_500 h_20" key="Add_Employees">
+                  Add Your Employees
+                </h3>
+                <p class="card-text text-center lang p_14" key="Add_Employees_p">
+                  Effortlessly add your employees and their details in a click
+                  or let us take care of it.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Set_Employees.png" class="card-img-top w-50" alt="Set_Employees" />
+              <div class="card-body">
+                <h3 class="text-center lang fw_500 h_20" key="Set_Employees">
+                  Set Maximum Withdrawal Limits for Each Employee
+                </h3>
+
+                <p class="card-text text-center lang p_14" key="Set_Employees_p">
+                  Enable easy on-demand access to earned wages, complying with
+                  wage protection laws.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br /><br /><br />
+        </div>
+      </section>
+      <!-- Taking your employees out  -->
+      <section>
+        <div class="container d-flex align-items-center justify-content-center flex-column three">
+          <h2 class="text-center">
+            <span class="lang" key="Taking_Employees_1">Taking your employees out
+            </span>
+            <br />
+            <span class="lang" key="Taking_Employees_2">of their financial stress</span>
+          </h2>
+          <div class="row cards nums" style="display: flex">
+            <div class="card col-lg-4 col-md-4 col-12">
+              <div class="card-body counter">
+                <h3 class="text-center">
+                  <span class="lang num" data-goal="72">0</span> %
+                </h3>
+                <p class="card-text lang text-center" key="p_72">
+                  of individuals experience financial stress at least once a
+                  year
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-12">
+              <div class="card-body counter">
+                <h3 class="text-center">
+                  <span class="lang">
+                    <span class="num" data-goal="300">0</span><sup>k</sup> $
+                  </span>
+                </h3>
+                <p class="card-text lang text-center" key="p_300">
+                  the annual cost to employers in lost productivity as a
+                  result of employee financial stress
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-12">
+              <div class="card-body counter">
+                <h3 class="text-center">
+                  <span class="lang num" data-goal="20">0</span> %
+                </h3>
+
+                <p class="card-text lang text-center" key="p_20">
+                  of employee turnover attributable to financial stress
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <button class="btn btn_purple lang col-8 col-md-3 col-lg-3" key="REQUEST_A_DEMO" type="submit">
+            REQUEST A DEMO
+          </button>
+        </div>
+      </section>
+
+      <hr class="border border-1 opacity-50" />
+      <!-- Employee Benefits -->
+      <section>
+        <div class="container d-flex align-items-center justify-content-center flex-column">
+          <br /><br /><br />
+          <h2 class="lang" key="Employee_Benefits">Employee Benefits</h2>
+          <br>
+
+
+          <div class="row content justify-content-center">
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Instant.png" class="card-img-top w-25" alt="Instant" />
+              <div class="card-body">
+                <h3 class="text-center lang" key="Instant">
+                  Instant Liquidity 24/7
+                </h3>
+                <p class="card-text text-center lang" key="Instant_p">
+                  Do you have emergency expenses? Get liquidity with just one
+                  click.
+                </p>
+              </div>
+            </div>
+
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Wages.png" class="card-img-top w-25" alt="Wages" />
+              <div class="card-body">
+                <h3 class="text-center lang" key="Wages">
+                  No More Wages Delays
+                </h3>
+
+                <p class="card-text text-center lang" key="Wages_p">
+                  Administrative procedures will no longer hinder your earned
+                  wages access. Get the money you need anytime.
+                </p>
+              </div>
+            </div>
+
+            <div class="card col-lg-4 col-md-4 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Promotion.png" class="card-img-top w-25" alt="Promotion" />
+              <div class="card-body">
+                <h3 class="text-center lang" key="Promotion">
+                  You Won't Miss Any Promotion
+                </h3>
+                <p class="card-text text-center lang" key="Promotion_p">
+                  With Qsalary, never miss sales discounts due to liquidity
+                  issues.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card col-lg-6 col-md-6 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Centralized.png" class="card-img-top w-25" alt="Centralized" />
+              <div class="card-body">
+                <h3 class="text-center lang" key="Centralized">
+                  Centralized Expense Management
+                </h3>
+                <p class="card-text text-center lang" key="Centralized_p">
+                  Enjoy a user-friendly app displaying your remaining wages on
+                  your smartphone.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-6 col-md-6 col-12 align-items-center justify-content-center">
+              <img src="dist/img/Interest.png" class="card-img-top w-25" alt="Interest" />
+              <div class="card-body">
+                <h3 class="text-center lang" key="Interest">
+                  Fixed Fees, 0% Interest
+                </h3>
+
+                <p class="card-text text-center lang" key="Interest_p">
+                  No interest will apply to any amount you withdraw, but a
+                  flat fee per withdrawal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <button class="btn btn_purple btn-lg lang fw_600 col-8 col-md-3 col-lg-3" key="See_more" type="submit">
+            See more
+          </button>
+        </div>
+      </section>
+
+      <!-- Download the APP -->
+      <section class="px-2">
+        <div class="container  purple_section overflow-visible">
+          <div class="row d-flex">
+            <div class="col-lg-6 col-md-6 col-12 align-items-center justify-content-center">
+              <div class="card-body px-5 gap-4 d-flex flex-column justify-content-center h-100">
+                <h4 class="lang fw_600" key="Download">Download the APP</h4>
+                <h3 class="card-text lang fw_600" key="Help_Us">
+                  Help Us Contact Your Company
+                </h3>
+                <div class="d-flex">
+                  <a target="_blank" href="https://apps.apple.com/jp/app/qsalary/id1580559019?l=en">
+                    <img src="dist/img/appstore.png" alt="appstore" /></a>
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=app.qsalary.com">
+                    <img src="dist/img/googleplay.png" alt="googleplay" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 align-items-center justify-content-center imagephone">
+              <img id="i__phone" src="dist/img/Floating-iPhone-En-2-min.png" class="card-img-top image_phone w-100"
+                alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+
+      <section class="FAQs p-4" style="background-color: var(--section_streatched)">
+        <div class="container d-flex align-items-center justify-content-center flex-column">
+          <h2 class="text-center lang" key="FAQs">FAQs</h2>
+          <div class="row col-lg-8 col-md-8 col-12">
+            <div class="accordion custom-accordion p-0 border-0" id="customAccordion">
+              <div class="accordion-item pb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <p class="lang m-0" key="What_is_Qsalary">
+                      What is Qsalary?
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#customAccordion">
+                  <div class="accordion-body lang" key="q1">
+                    Qsalary is an advanced and secure app that provides
+                    employees with access to their earned wages anytime. This
+                    offers them the flexibility to manage financial matters
+                    and unexpected expenses between pay periods, making every
+                    day a payday.
+                  </div>
+                </div>
+              </div>
+              <hr class="border border-1 opacity-50 my-1" />
+              <div class="accordion-item pb-3">
+                <h2 class="accordion-header" id="heading2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    <p class="lang m-0" key="Qsalary_service">
+                      Is Qsalary a loan service?
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                  data-bs-parent="#customAccordion">
+                  <div class="accordion-body lang" key="q2">
+                    No loans involved – we give employees direct access to
+                    their own earned salary!
+                  </div>
+                </div>
+              </div>
+              <hr class="border border-1 opacity-50 my-1" />
+              <div class="accordion-item pb-3">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <p class="lang m-0" key="whom_Qsalary">
+                      Is there a minimum number of employees required from the
+                      company ?
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                  data-bs-parent="#customAccordion">
+                  <div class="accordion-body lang" key="q3">
+                    No, there isn’t a minimum number of employees required to
+                    join.
+                  </div>
+                </div>
+              </div>
+              <hr class="border border-1 opacity-50 my-1" />
+              <div class="accordion-item pb-3">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    <p class="lang m-0" key="minimum_salary_requirement">
+                      Is there a minimum salary requirement for this app?
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading3"
+                  data-bs-parent="#customAccordion">
+                  <div class="accordion-body lang" key="q4">
+                    There is no minimum salary to benefit from the
+                    application.
+                  </div>
+                </div>
+              </div>
+              <hr class="border border-1 opacity-50 my-1" />
+              <div class="accordion-item pb-3">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    <p class="lang m-0" key="Qsalary_charge">
+                      Does Qsalary charge any interest?
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading3"
+                  data-bs-parent="#customAccordion">
+                  <div class="accordion-body lang" key="q5">
+                    No, Qsalary doesn’t charge any interest.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <button class="btn btn_purple btn-lg lang col-8 col-md-2 col-lg-2" key="See_more" type="submit">
+            See more
+          </button>
+        </div>
+      </section>
+
+      <!-- Our Success Partners -->
+      <section class="px-2">
+        <div class="container">
+          <h2 class="text-center lang" key="Success_Partners">
+            Our Success Partners
+          </h2>
+          <br />
+          <br />
+          <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage d-flex align-items-center">
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/1.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/2.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/3.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/4.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/5.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item cloned">
+                  <div class="item">
+                    <img src="dist/img/slider/6.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="item">
+                    <img src="dist/img/slider/8.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="item">
+                    <img src="dist/img/slider/9.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="item">
+                    <img src="dist/img/slider/10.png" alt="" width="50%" />
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="item">
+                    <img src="dist/img/slider/11.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item active">
+                  <div class="item">
+                    <img src="dist/img/slider/12.png" alt="" width="50%" />
+                  </div>
+                </div>
+                <div class="owl-item active">
+                  <div class="item">
+                    <img src="dist/img/slider/13.png" alt="" width="50%" />
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="item">
+                    <img src="dist/img/slider/7.png" alt="" width="50%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Now -->
+
+      <section class="Start_Now px-2">
+        <div class="container">
+          <div class="circle"></div>
+          <div class="d-flex align-items-center justify-content-center flex-column bg-light py-5">
+            <h4 class="lang" key="Start_Now">Start Now</h4>
+            <h2 class="text-center my-4 p-2">
+              <span class="text-center lang color_purple" key="empower_your_employees_1">Ready to empower your employees
+                with</span>
+              <br />
+              <span class="text-center lang color_purple" key="empower_your_employees_2">
+                anytime wage access?</span>
+            </h2>
+            <br />
+            <div class="row content">
+              <div class="d-flex justify-content-center flex-wrap gap-2">
+                <p>
+                  <i class="bi bi-check-lg color_purple"></i>
+                  <span class="lang" key="Quick">Quick & easy</span>
+                </p>
+                <p>
+                  <i class="bi bi-check-lg color_purple"></i>
+                  <span class="lang" key="Automation">Automation</span>
+                </p>
+                <p>
+                  <i class="bi bi-check-lg color_purple"></i>
+                  <span class="lang" key="no_Interests">No Interests</span>
+                </p>
+                <p>
+                  <i class="bi bi-check-lg color_purple"></i>
+                  <span class="lang" key="Stress_Free">Stress Free</span>
+                </p>
+              </div>
+            </div>
+            <br />
+            <button class="btn btn_purple btn-lg lang col-8 col-md-3 col-lg-3" key="REQUEST_A_DEMO" type="submit">
+              REQUEST A DEMO
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Stay in the know -->
+      <section class="px-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="lang" key="Stay_in_the_know">Stay in the know</h4>
+              <h2 class="yellow_color lang" key="Subscribe_Mailing">
+                Subscribe Mailing List
+              </h2>
+              <div class="d-flex flex-column flex-sm-row flex-xl-row flex-lg-row flex-md-row mb-3 gap-2">
+                <input type="text" class="form-control" placeholder="Email address" aria-label="Email address"
+                  aria-describedby="button-addon2" />
+                <button class="btn btn_purple_outline lang btn-lg" key="Subscribe" type="button" id="button-addon2">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p class="lang" key="Follow_Us">Follow Us</p>
+              <h2 class="lang" key="Social_Media_Accounts">
+                Social Media Accounts
+              </h2>
+              <div class="social-links mt-3 d-flex">
+                <a target="_blank" href="https://twitter.com/qsalaryapp"><i class="bi bi-twitter-x"></i></a>
+                <a target="_blank" href="https://www.instagram.com/qsalaryapp/"><i class="bi bi-instagram"></i></a>
+                <a target="_blank" href="https://web.facebook.com/qsalaryapp/?_rdc=1&_rdr"><i
+                    class="bi bi-facebook"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/qsalary/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="px-2">
+      <div class="container last_section">
+        <div class="row align-items-center justify-content-center gap-sm-4 gap-md-0 gap-lg-0 gap-4">
+          <div class="d-flex col-lg-3 col-md-3 col-sm-5 align-items-center justify-content-center">
+            <a href="#" class="d-flex justify-content-md-start justify-content-center w-100">
+              <img src="dist/img/logo.png" class="card-img-top w-50" alt="..." /></a>
+          </div>
+          <div class="d-flex col-lg-5 col-md-5 col-sm-8 align-items-center justify-content-center">
+            <div class="d-flex gap-2 ar_btn_footer">
+              <div class="text_footer d-flex gap-3 align-items-center">
+                <a href="" class="text-center color_footer lang m-0" key="Blog">Blog</a>
+                <a href=""  class="text-center color_footer lang m-0" key="FAQ">FAQ</a>
+                <a href=""  class="text-center color_footer lang m-0" key="Privacy_Policy">
+                  Privacy Policy
+                </a>
+              </div>
+              <button class="btn lang translate  translate_btn p-1" id="ar">
+                <img src="dist/img/soudia.png" alt="icon_soudia" width="20px" />العربية
+              </button>
+            </div>
+          </div>
+          <div class="d-flex col-lg-4 col-md-4 col-sm-12 align-items-center justify-content-center">
+            <div class="d-flex gap-3 justify-content-md-end justify-content-center w-100">
+              <a target="_blank" href="https://apps.apple.com/jp/app/qsalary/id1580559019?l=en">
+                <img src="dist/img/appstore.png" width="100%" alt="appstore" /></a>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=app.qsalary.com">
+                <img src="dist/img/googleplay.png" width="100%" alt="googleplay" /></a>
+            </div>
+          </div>
+        </div>
+        <hr class="border border-1 opacity-50" />
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between justify-content-md-between">
+          <p class="lang" key="Powered">Powered by ASFA Ventures</p>
+          <p class="lang" key="rights">All rights reserved© Qsalary 2023</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="dist/js/owl.carousel.js"></script>
+  <script src="dist/js/main.js" defer></script>
+  <script defer src="dist/js/popper.min.js"></script>
+  <script defer src="dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      rtl: true,
+      margin: 30,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        400: {
+          items: 2,
+        },
+        700: {
+          items: 3,
+        },
+        1000: {
+          items: 4,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
